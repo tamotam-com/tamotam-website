@@ -10,7 +10,7 @@ export function Component() {
       <header className="px-4 lg:px-6 h-16 flex items-center justify-between animate-slide-in-down">
         <Link className="flex items-center justify-center" href="#">
           <SmartphoneIcon className="h-6 w-6" />
-          <span className="sr-only">Mobile App</span>
+          <span className="sr-only">TamoTam</span>
         </Link>
       </header>
       <main className="flex-1">
@@ -19,20 +19,14 @@ export function Component() {
             <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
               <div>
                 <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-                  Improve Your Social Life with Our App
+                  🤙 TamoTam. HangOut. Offline.
                 </h1>
+                <br />
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Our app is designed to improve your social life by encouraging less screen time and more real-world
-                  interactions. Start your journey towards a healthier digital lifestyle today.
+                  Prioritize real-world connections.
+                  <br />
+                  In a Real, Offline, Social Life.
                 </p>
-                <div className="space-x-4">
-                  <Link
-                    className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                    href="#"
-                  >
-                    Get Started
-                  </Link>
-                </div>
               </div>
               <div className="flex flex-col items-start space-y-4">
                 <img
@@ -46,41 +40,36 @@ export function Component() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 animate-fade-in-up">
+        <section className="w-full py-4 md:py-8 lg:py-12 animate-fade-in-up">
           <div className="container space-y-12 px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
-                  Key Features
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Why Choose Our App</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Go Online to be Offline.</h2>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Our app encourages people to spend time off screen, promoting a healthier digital lifestyle and
-                  improving social life.
+                  Social applications, once praised for fostering connectivity, now raise concerns for their negative impacts. They often breed addiction, isolation, and mental health issues. Their addictive features lead to excessive screen time and reduced productivity. Moreover, curated content can distort reality, fueling envy and low self-esteem.
                 </p>
               </div>
             </div>
             <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
               <div className="grid gap-1">
                 <FastForwardIcon className="h-6 w-6" />
-                <h3 className="text-lg font-bold">Speed</h3>
+                <h3 className="text-lg font-bold">Digital Wellbeing</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Our app is built for speed. Enjoy lightning-fast performance and responsiveness.
+                  Spending more time offline and fostering face-to-face interactions is vital for improving digital wellbeing.
                 </p>
               </div>
               <div className="grid gap-1">
                 <LockIcon className="h-6 w-6" />
-                <h3 className="text-lg font-bold">Security</h3>
+                <h3 className="text-lg font-bold">Balance</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  We prioritize your security. Your data is safe and secure with us.
+                  Investing time in meaningful interactions with others and engaging in offline activities can lead to a more fulfilling and balanced lifestyle.
                 </p>
               </div>
               <div className="grid gap-1">
                 <UserIcon className="h-6 w-6" />
-                <h3 className="text-lg font-bold">Social Life Improvement</h3>
+                <h3 className="text-lg font-bold">Misinformation</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Our app is designed to improve your social life by encouraging less screen time and more real-world
-                  interactions.
+                  Studies link social media use to anxiety, depression, and poses a threat to societal trust and democracy.
                 </p>
               </div>
             </div>
@@ -90,22 +79,19 @@ export function Component() {
           <div className="container grid items-center justify-center gap-4 px-4 md:px-6">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                The Impact of Social Apps on Health
+                Social applications have revolutionized the Homo Sapiens,
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                While social apps can be a great way to stay connected, it's important to be aware of their potential
-                impact on mental and physical health. Excessive use can lead to issues like anxiety, depression, and
-                sleep disorders.
+                fostering addiction and isolation to exacerbating mental health issues causing we speak less, and less, with each other.
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
               <blockquote className="text-lg font-semibold leading-snug lg:text-xl lg:leading-normal xl:text-2xl">
-                “I've noticed a significant improvement in my mental health since I started using this app. It's
-                designed to promote healthy usage habits, and it really shows.“
+                “While technology offers numerous benefits, excessive screen time can lead to various negative consequences such as social isolation, decreased productivity, and mental health issues.“
               </blockquote>
               <div>
-                <div className="font-semibold">Jane Doe</div>
-                <div className="text-sm text-gray-500 dark:text-gray-400">App User</div>
+                <div className="font-semibold">ChatGPT Plus</div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">Model GPT-4</div>
               </div>
             </div>
           </div>
@@ -121,14 +107,14 @@ export function Component() {
             <div className="flex justify-center space-x-4">
               <Link
                 className="inline-flex h-12 items-center justify-center rounded-md bg-[#0A5CFF] px-10 text-base font-medium text-white shadow transition-colors hover:bg-[#0A5CFF]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#0A5CFF] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#0A5CFF] dark:text-white dark:hover:bg-[#0A5CFF]/90 dark:focus-visible:ring-[#0A5CFF]"
-                href="#"
+                href="https://apps.apple.com/pl/app/tamotam-hangout-offline/id1625649957"
               >
                 <AppleIcon className="h-6 w-6 mr-2" />
                 Download on App Store
               </Link>
               <Link
                 className="inline-flex h-12 items-center justify-center rounded-md bg-[#3C79E6] px-10 text-base font-medium text-white shadow transition-colors hover:bg-[#3C79E6]/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#3C79E6] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#3C79E6] dark:text-white dark:hover:bg-[#3C79E6]/90 dark:focus-visible:ring-[#3C79E6]"
-                href="#"
+                href="https://play.google.com/store/apps/details?id=com.tamotam.application"
               >
                 <PlayIcon className="h-6 w-6 mr-2" />
                 Get it on Google Play
@@ -138,7 +124,7 @@ export function Component() {
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t animate-slide-in-up">
-        <p className="text-xs text-gray-500 dark:text-gray-400">© Mobile App. All rights reserved.</p>
+        <p className="text-xs text-gray-500 dark:text-gray-400">© TamoTam. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link className="text-xs hover:underline underline-offset-4" href="#">
             Terms of Service
@@ -148,19 +134,19 @@ export function Component() {
           </Link>
         </nav>
         <div className="flex gap-4 sm:gap-6 ml-auto">
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://www.linkedin.com/in/danieldanielecki/">
             <LinkedinIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://discord.gg/RFjtXKfJy3">
             <DiscIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://twitter.com/ddanielecki">
             <TwitterIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://www.instagram.com/ditectrev/">
             <InstagramIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://github.com/tamotam-com">
             <GithubIcon className="h-6 w-6" />
           </Link>
         </div>
