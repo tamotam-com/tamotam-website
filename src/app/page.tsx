@@ -1,8 +1,7 @@
-import Image from "next/image";
-import { Component } from "@/components/component";
+import { Home } from "@/pages/home";
 
-export default function Home() {
+export default function Root() {
   return (
-    <Component />
+    <Home />
   );
 }
