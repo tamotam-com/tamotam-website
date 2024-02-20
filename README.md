@@ -10,10 +10,9 @@ This page has been created using [v0](https://v0.dev). The project can be found 
 - Aligning text to good lucking doesn't work - almost doesn't make a use of centering and justyfing text.
 - Animations aren't working.
 - Confuses some social network icons, such as `Discord` (it generates really unknown logo), `TikTok` (it generates `YouTube` logo), and `X` (it generates x itself).
-- It can't generate original `Download on App/Google store` images.
+- It can't generate original `Download on App/Google store` images + the generated icons for stores aren't RWD.
 - Missing `default` on `export` while trying to make pages via routes out of this.
 - Slightly problematic setup with `globals.css` when trying to leverage `pages`/add routing even though as per [official docs](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css#importing-styles) it's looking correctly.
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
