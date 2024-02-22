@@ -6,7 +6,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { JSX, SVGProps } from "react"
 
-export function Home() {
+export default function Home() {
   const fullYear: number = new Date().getFullYear()
 
   return (
@@ -145,22 +145,22 @@ export function Home() {
           </Link>
         </nav>
         <div className="flex gap-4 sm:gap-6 md:ml-auto">
-          <Link className="text-xs hover:underline underline-offset-4" href="https://www.linkedin.com/in/danieldanielecki/">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://www.linkedin.com/company/tamotam">
             <LinkedinIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="https://discord.gg/RFjtXKfJy3">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://discord.gg/b4KaGu4z">
             <DiscIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="https://twitter.com/ddanielecki">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://twitter.com/TamoTamApp">
             <TwitterIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="https://www.instagram.com/ditectrev/">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://www.instagram.com/tamotamapp">
             <InstagramIcon className="h-6 w-6" />
           </Link>
           <Link className="text-xs hover:underline underline-offset-4" href="https://github.com/tamotam-com">
             <GithubIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://www.tiktok.com/@tamotamapp">
             <YoutubeIcon className="h-6 w-6" />
           </Link>
         </div>

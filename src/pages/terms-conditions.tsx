@@ -84,9 +84,9 @@ export default function TermsConditions() {
           </div>
         </section>
       </main>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t animate-slide-in-up">
+      <footer className="flex flex-col gap-2 md:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t animate-slide-in-up">
         <p className="text-xs text-gray-500 dark:text-gray-400">© {fullYear} TamoTam. All rights reserved.</p>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
+        <nav className="md:ml-auto flex gap-4 sm:gap-6">
           <Link className="text-xs hover:underline underline-offset-4" href="/cookies-policy">
             Cookies Policy
           </Link>
@@ -97,23 +97,23 @@ export default function TermsConditions() {
             Terms & Conditions
           </Link>
         </nav>
-        <div className="flex gap-4 sm:gap-6 ml-auto">
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+        <div className="flex gap-4 sm:gap-6 md:ml-auto">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://www.linkedin.com/company/tamotam">
             <LinkedinIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://discord.gg/b4KaGu4z">
             <DiscIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://twitter.com/TamoTamApp">
             <XIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://www.instagram.com/tamotamapp">
             <InstagramIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://github.com/tamotam-com">
             <GithubIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://www.tiktok.com/@tamotamapp">
             <YoutubeIcon className="h-6 w-6" />
           </Link>
         </div>
