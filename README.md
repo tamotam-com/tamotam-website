@@ -23,6 +23,7 @@ This page has been created using [v0](https://v0.dev). The project can be found 
 - Good project structure.
 - Support for TypeScript is well.
 - Up-to-date dependencies.
+- Analytics could've been added when developing (landing) pages, but as a fair point if it aims to be just for creating component it's unnecessary.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
