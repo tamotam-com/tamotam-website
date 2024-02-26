@@ -13,7 +13,7 @@ This page has been created using [v0](https://v0.dev). The project can be found 
 - It can't generate original `Download on App/Google store` images + the generated icons for stores aren't RWD.
 - Missing `default` on `export` while trying to make pages via routes out of this.
 - Slightly problematic setup with `globals.css` when trying to leverage `pages`/add routing even though as per [official docs](https://nextjs.org/docs/app/building-your-application/styling/tailwind-css#importing-styles) it's looking correctly.
-- Deployment, at least to `Vercel`, should've been out-of-the-box, but in fact it requires tweaks with `output: "export"` in the `next.cponfig.mjs`.
+- Deployment, at least to `Vercel`, should've been out-of-the-box, but in fact it requires tweaks with `output: "export"` in the `next.cponfig.mjs` for static deployment (eventually ditched the idea) and extra setup in `Vercel` Project Settings for a normal one (selecting manually `Next.js` as a framework, otherwise it deploys `404`).
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
