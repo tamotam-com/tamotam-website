@@ -145,22 +145,28 @@ export default function Home() {
           </Link>
         </nav>
         <div className="flex gap-4 sm:gap-6 md:ml-auto">
-          <Link className="text-xs hover:underline underline-offset-4" href="https://www.linkedin.com/company/tamotam">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://www.linkedin.com/company/tamotam" rel="noopener"
+            target="_blank">
             <LinkedinIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="https://discord.gg/b4KaGu4z">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://discord.gg/b4KaGu4z" rel="noopener"
+            target="_blank">
             <DiscIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="https://twitter.com/TamoTamApp">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://twitter.com/TamoTamApp" rel="noopener"
+            target="_blank">
             <TwitterIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="https://www.instagram.com/tamotamapp">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://www.instagram.com/tamotamapp" rel="noopener"
+            target="_blank">
             <InstagramIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="https://github.com/tamotam-com">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://github.com/tamotam-com" rel="noopener"
+            target="_blank">
             <GithubIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="https://www.tiktok.com/@tamotamapp">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://www.tiktok.com/@tamotamapp" rel="noopener"
+            target="_blank">
             <YoutubeIcon className="h-6 w-6" />
           </Link>
         </div>
