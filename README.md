@@ -8,7 +8,7 @@ This page has been created using [v0](https://v0.dev). The project can be found 
 - When running a prompt, the result is there, but on the next prompt the app often almost always requires browser reload
 - Image optimization improvements related to LCP, `<Image />` from `next/image` could've been used instead of `<img>` (tweak in `images.unoptimized: true` was required to deploy statically).
 - Aligning text to good lucking doesn't work - almost doesn't make a use of centering and justyfing text.
-- Animations aren't working.
+- Animations aren't working, in best case **heavily** broken.
 - Confuses some social network icons, such as `Discord` (it generates really unknown logo), `TikTok` (it generates `YouTube` logo), and `X` (it generates x itself).
 - It can't generate original `Download on App/Google store` images + the generated icons for stores aren't RWD.
 - Missing `default` on `export` while trying to make pages via routes out of this.
