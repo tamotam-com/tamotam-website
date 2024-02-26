@@ -17,6 +17,9 @@ This page has been created using [v0](https://v0.dev). The project can be found 
 - `target="_blank"` (with `rel="noopener"`) could've been generated for external-looking links.
 - No metadata is generated.
 - Favicon not working on production.
+- Great kick off for styles.
+- The code is in a good quality.
+- Couldn't generate Dark/Light theme toggles.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
