@@ -25,6 +25,7 @@ This page has been created using [v0](https://v0.dev). The project can be found 
 - Up-to-date dependencies.
 - Analytics could've been added when developing (landing) pages, but as a fair point if it aims to be just for creating component it's unnecessary.
 - Components seems to be looking the same across different projects as per https://www.reddit.com/r/nextjs/comments/1b0ha1l/comment/kscs87l/, that would probably mean components for Dark theme aren't even possible to generate.
+- Performance metrics are looking very good.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
